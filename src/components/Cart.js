@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 
 function Cart({ cartItems, removeFromCart }) {
+  const [showCheckOut, setShowCheckOut] = useState(false);
   return (
     <div>
       {cartItems.length === 0 ? (
@@ -17,12 +18,13 @@ function Cart({ cartItems, removeFromCart }) {
             {cartItems.map((item) => (
               <li key={item.id}>
                 <div>
-                  <img src={item.image} alt={item.title} />
+                  <img src={item.image} alt={item.title.slice(0, 2)} />
                 </div>
                 <div className="cart-title">{item.title}</div>
-                <span>
-                  €{item.price}x{item.count}
-                </span>
+                <div className="priceItem">
+                  {item.price} x {item.count}{" "}
+                </div>
+
                 <button
                   onClick={() => {
                     removeFromCart(item);
@@ -39,13 +41,42 @@ function Cart({ cartItems, removeFromCart }) {
       {cartItems.length !== 0 && (
         <div className="cart">
           <div className="total">
-            <div>
-              Total: € {cartItems.reduce((a, c) => a + c.price * c.count, 0)}
+            <div className="total">
+              Total: €{" "}
+              {Math.round(cartItems.reduce((a, c) => a + c.price * c.count, 0))}
             </div>
-            <button className="button primary">Proceed </button>
+            <button
+              onClick={() => setShowCheckOut(true)}
+              className="button primary proceed"
+            >
+              Proceed{" "}
+            </button>
           </div>
         </div>
       )}
+      <Fade right cascade={true}>
+        {showCheckOut && (
+          <div className="form">
+            <form>
+              <h3>Enter The Below Details</h3>
+              <ul className="form-container">
+                <li>
+                  <input placeholder="Enter Email" type="email" required />
+                </li>
+                <li>
+                  <input placeholder="Enter Name" type="text" required />
+                </li>
+                <li>
+                  <input placeholder="Enter Address" type="text" required />
+                </li>
+                <li>
+                  <button className="checkout">ORDER NOW</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        )}
+      </Fade>
     </div>
   );
 }

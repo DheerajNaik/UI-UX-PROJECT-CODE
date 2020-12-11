@@ -10,6 +10,7 @@ function MenuItems() {
   let removeFromCart = (product) => {
     cartItems = cartItems.slice();
     setCartItems(cartItems.filter((x) => x.id !== product.id));
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
   };
   let addToCart = (product) => {
     cartItems = cartItems.slice();
@@ -24,6 +25,7 @@ function MenuItems() {
       cartItems.push({ ...product, count: 1 });
     }
     setCartItems(cartItems);
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
   };
   return (
     <>

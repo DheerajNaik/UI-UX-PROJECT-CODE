@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
-import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MeetOurChefs from "./components/pages/MeetOurChefs";
+import Home from "./components/pages/Home";
+
 import Menu from "./components/pages/Menu";
-import SignUp from "./components/pages/SignUp";
+import SignUpForm from "./components/pages/SignUpForm";
+import CookBook from "./components/pages/CookBook";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/menu" component={Menu} />
-          <Route path="/services" component={MeetOurChefs} />
-          <Route path="/sign-up" component={SignUp} />
+          <Route path="/services" component={CookBook} />
+          <Route path="/signin" exact component={SignUpForm} />
         </Switch>
       </Router>
     </>

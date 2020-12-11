@@ -52,21 +52,23 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Meet Our Chefs
+                Cookbook
               </Link>
             </li>
 
             <li>
               <Link
-                to="/sign-up"
+                to="/signin"
+                onClick={() => {
+                  console.log("hi");
+                }}
                 className="nav-links-mobile"
-                onClick={closeMobileMenu}
               >
-                Sign Up
+                SIGN IN
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">SIGN IN</Button>}
         </div>
       </nav>
     </>
