@@ -61,10 +61,14 @@ function Cart({ cartItems, removeFromCart }) {
               <h3>Enter The Below Details</h3>
               <ul className="form-container">
                 <li>
-                  <input placeholder="Enter Email" type="email" required />
+                  <input placeholder="Enter Name" type="text" required />
                 </li>
                 <li>
-                  <input placeholder="Enter Name" type="text" required />
+                  <input
+                    placeholder="Enter Phone Number"
+                    type="text"
+                    required
+                  />
                 </li>
                 <li>
                   <input placeholder="Enter Address" type="text" required />

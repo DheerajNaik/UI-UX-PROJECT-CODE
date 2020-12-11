@@ -37,6 +37,9 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     backgroundColor: red[500],
   },
+  paragraph: {
+    fontWeight: 200,
+  },
 }));
 function Recipe({ title, calories, image, ingredients }) {
   const classes = useStyles();
@@ -54,7 +57,7 @@ function Recipe({ title, calories, image, ingredients }) {
           title="Paella dish"
         />
         <CardContent>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="black" component="p">
             This impressive paella is a perfect party dish and a fun meal to
             cook together with your guests. Add 1 cup of frozen peas along with
             the mussels, if you like.

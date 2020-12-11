@@ -2,7 +2,7 @@ export const products = [
   {
     id: "food1",
     image: "/imgs/food1.jpg",
-    title: "Midi sunfood with shirring detail",
+    title: "Epic sunfood with shirring detail",
     description:
       "A food that becomes moistened by having a flavorful coating dripped or brushed onto its surface. May result in a glossy appearance and thin, crisp outer layer. Often results in a crispy or crunchy texture and golden color.",
     price: 29.9,
@@ -10,7 +10,7 @@ export const products = [
   {
     id: "food2",
     image: "/imgs/food2.jpg",
-    title: "Midi sunfood with ruched front",
+    title: "Fury sunfood with ruched peach",
     description:
       "A food that becomes moistened by having a flavorful coating dripped or brushed onto its surface. May result in a glossy appearance and thin, crisp outer layer. Often results in a crispy or crunchy texture and golden color.",
 
@@ -19,7 +19,7 @@ export const products = [
   {
     id: "food3",
     image: "/imgs/food3.jpg",
-    title: "Midi food in pink ditsy floral",
+    title: "Rock food in pink ditsy floral",
     description:
       "A food that becomes moistened by having a flavorful coating dripped or brushed onto its surface. May result in a glossy appearance and thin, crisp outer layer. Often results in a crispy or crunchy texture and golden color.",
 

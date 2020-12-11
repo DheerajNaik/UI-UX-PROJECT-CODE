@@ -164,6 +164,7 @@ span {
   text-align: center;
   margin-top: 10px;
   border: 0.1rem #080808 solid;
+  cursor: pointer;
 }
 .cart-button:hover {
   border: 0.1rem #808080 solid;
@@ -326,6 +327,7 @@ form > h3 {
   letter-spacing: 1px;
   font-family: sans-serif;
   border-radius: 4px;
+  cursor: pointer;
 }
 ::-webkit-input-placeholder {
   color: rgb(0, 0, 0);

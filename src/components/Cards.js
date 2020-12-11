@@ -13,13 +13,13 @@ function Cards() {
               src="imgs/img-2.jpg"
               text="Explore the Japenese hidden taste deep inside the German Technique"
               label="Japenese-German"
-              path="/services"
+              path="/menu"
             />
             <CardItem
               src="imgs/img-ind.jpg"
               text="Eat through the spices of India in a German winks"
               label="Indian-German"
-              path="/services"
+              path="/menu"
             />
           </ul>
           <ul className="cards__items">
@@ -27,19 +27,19 @@ function Cards() {
               src="imgs/img-chinese.jpg"
               text="Set Sail in the Indian cuisine with a German touch"
               label="Chinese-German"
-              path="/services"
+              path="/menu"
             />
             <CardItem
               src="imgs/img-pakistani.jpg"
               text="Experience Pakistani Mountain delicasy on Top of the German class "
               label="Pakistani-German"
-              path="/products"
+              path="/menu"
             />
             <CardItem
               src="imgs/img-turkish.jpg"
               text="Ride through the Turkish delicasy with German techique"
               label="Turkish-German"
-              path="/sign-up"
+              path="/menu"
             />
           </ul>
         </div>

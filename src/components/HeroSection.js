@@ -6,8 +6,8 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <h1>SURPRISE YOUR TASTEBUDS</h1>
-      <p>WHAT ARE YOU WAITING FOR?</p>
+      <h1>LIFE'S TOO SHORT FOR BORING FOOD</h1>
+      <p>LET'S DINE NOW</p>
       <div className="hero-btns">
         <Button
           className="btns"
