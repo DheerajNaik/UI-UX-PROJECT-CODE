@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ravindra/static/css/main.eaf402e1.chunk.css",
+    "main.js": "/ravindra/static/js/main.ded442ca.chunk.js",
+    "main.js.map": "/ravindra/static/js/main.ded442ca.chunk.js.map",
+    "runtime-main.js": "/ravindra/static/js/runtime-main.699ee4df.js",
+    "runtime-main.js.map": "/ravindra/static/js/runtime-main.699ee4df.js.map",
+    "static/js/2.ed8a3ff6.chunk.js": "/ravindra/static/js/2.ed8a3ff6.chunk.js",
+    "static/js/2.ed8a3ff6.chunk.js.map": "/ravindra/static/js/2.ed8a3ff6.chunk.js.map",
+    "static/js/3.6d0c09b9.chunk.js": "/ravindra/static/js/3.6d0c09b9.chunk.js",
+    "static/js/3.6d0c09b9.chunk.js.map": "/ravindra/static/js/3.6d0c09b9.chunk.js.map",
+    "index.html": "/ravindra/index.html",
+    "static/css/main.eaf402e1.chunk.css.map": "/ravindra/static/css/main.eaf402e1.chunk.css.map",
+    "static/js/2.ed8a3ff6.chunk.js.LICENSE.txt": "/ravindra/static/js/2.ed8a3ff6.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/ravindra/static/media/img-home-section1.77163afe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.699ee4df.js",
+    "static/js/2.ed8a3ff6.chunk.js",
+    "static/css/main.eaf402e1.chunk.css",
+    "static/js/main.ded442ca.chunk.js"
+  ]
+}
